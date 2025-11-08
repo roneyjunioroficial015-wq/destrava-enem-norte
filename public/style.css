@@ -1,0 +1,125 @@
+/* === ESTILO GERAL === */
+body {
+  margin: 0;
+    padding: 0;
+      font-family: "Poppins", sans-serif;
+        background-color: #f4f6fb;
+          color: #002244;
+            line-height: 1.6;
+            }
+
+            /* === CABEÇALHO === */
+            header {
+              background-color: #002244;
+                color: white;
+                  text-align: center;
+                    padding: 25px 10px;
+                      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+                      }
+
+                      header h1 {
+                        font-size: 2em;
+                          margin: 0;
+                          }
+
+                          header p {
+                            font-size: 1em;
+                              margin-top: 5px;
+                              }
+
+                              /* === SEÇÕES PRINCIPAIS === */
+                              section {
+                                padding: 40px 20px;
+                                  text-align: center;
+                                  }
+
+                                  h2 {
+                                    color: #002244;
+                                      font-size: 1.8em;
+                                        margin-bottom: 15px;
+                                        }
+
+                                        p {
+                                          font-size: 1em;
+                                            color: #333;
+                                              max-width: 700px;
+                                                margin: 0 auto 20px auto;
+                                                }
+
+                                                /* === BOTÕES === */
+                                                button, .btn {
+                                                  background-color: #0055ff;
+                                                    color: white;
+                                                      border: none;
+                                                        padding: 12px 25px;
+                                                          border-radius: 8px;
+                                                            font-size: 1em;
+                                                              cursor: pointer;
+                                                                transition: 0.3s;
+                                                                  text-decoration: none;
+                                                                    display: inline-block;
+                                                                    }
+
+                                                                    button:hover, .btn:hover {
+                                                                      background-color: #003fcc;
+                                                                      }
+
+                                                                      /* === IMAGENS === */
+                                                                      img {
+                                                                        max-width: 100%;
+                                                                          height: auto;
+                                                                            border-radius: 10px;
+                                                                              margin: 15px 0;
+                                                                              }
+
+                                                                              /* === CARDS / MÓDULOS === */
+                                                                              .card {
+                                                                                background-color: white;
+                                                                                  border-radius: 12px;
+                                                                                    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+                                                                                      padding: 20px;
+                                                                                        margin: 20px auto;
+                                                                                          max-width: 700px;
+                                                                                            text-align: left;
+                                                                                            }
+
+                                                                                            .card h3 {
+                                                                                              color: #002244;
+                                                                                                margin-bottom: 10px;
+                                                                                                }
+
+                                                                                                /* === RODAPÉ === */
+                                                                                                footer {
+                                                                                                  background: #002244;
+                                                                                                    color: white;
+                                                                                                      padding: 15px;
+                                                                                                        margin-top: 40px;
+                                                                                                          font-size: 0.9em;
+                                                                                                            text-align: center;
+                                                                                                            }
+
+                                                                                                            /* === LINKS === */
+                                                                                                            a {
+                                                                                                              color: #0055ff;
+                                                                                                                text-decoration: none;
+                                                                                                                  font-weight: 500;
+                                                                                                                  }
+
+                                                                                                                  a:hover {
+                                                                                                                    text-decoration: underline;
+                                                                                                                    }
+
+                                                                                                                    /* === RESPONSIVIDADE === */
+                                                                                                                    @media (max-width: 768px) {
+                                                                                                                      header h1 {
+                                                                                                                          font-size: 1.6em;
+                                                                                                                            }
+
+                                                                                                                              section {
+                                                                                                                                  padding: 25px 10px;
+                                                                                                                                    }
+
+                                                                                                                                      .card {
+                                                                                                                                          padding: 15px;
+                                                                                                                                            }
+                                                                                                                                            }
